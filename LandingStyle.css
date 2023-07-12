@@ -13,6 +13,7 @@
   --font-family-archivo: "Archivo";
   --font-family-outfit: "Outfit";
 }
+
 .outfit-bold-white-64px {
   color: var(--white);
   font-family: var(--font-family-outfit);
@@ -31,7 +32,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Outfit:700|Archivo:700");
 
-.desktop-2 {
+.desktop-1 {
   align-items: flex-start;
   background-color: #07161e;
   border: 1px none;
@@ -50,11 +51,22 @@
   visibility: hidden;
 }
 
+.rectangle-11 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgb(153, 241, 255) 100%
+  );
+  height: 1023px;
+  margin-left: 71px;
+  width: 92px;
+}
+
 .frame-container {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 96px;
+  margin-left: 91px;
   margin-top: 32px;
   min-height: 980px;
   width: 599px;
@@ -69,15 +81,12 @@
   display: flex;
   flex-direction: column;
   gap: 58px;
-  margin-top: 50px;
   min-height: 212px;
   width: 599px;
 }
 
 .rectangle-13 {
-  background-color: var(--sherpa-blue);
-  border: 1px solid;
-  border-color: var(--anakiwa);
+  background-color: var(--anakiwa);
   border-radius: 29px 29px 0px 0px;
   height: 49px;
   margin-right: 2px;
@@ -91,33 +100,6 @@
   gap: 42px;
   margin-right: 17px;
   min-width: 508px;
-}
-
-.frame-15 {
-  align-items: flex-start;
-  background-color: var(--sherpa-blue);
-  border: 1px solid;
-  border-color: var(--anakiwa);
-  border-radius: 29px;
-  display: flex;
-  gap: 22px;
-  height: 40px;
-  min-width: 343px;
-  padding: 3px 14px;
-}
-
-.ticker {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 25px;
-  white-space: nowrap;
-}
-
-.vector {
-  align-self: center;
-  height: 21px;
-  margin-bottom: 3.22px;
-  width: 23px;
 }
 
 .frame-13 {
@@ -138,35 +120,60 @@
   white-space: nowrap;
 }
 
-.frame-12 {
+.frame-15 {
   align-items: flex-start;
+  background-color: var(--sherpa-blue);
+  border: 1px solid;
+  border-color: var(--anakiwa);
+  border-radius: 29px;
+  display: flex;
+  gap: 22px;
+  height: 40px;
+  min-width: 343px;
+  padding: 3px 14px;
+}
+
+.vector {
+  align-self: center;
+  height: 21px;
+  margin-bottom: 3.23px;
+  width: 23px;
+}
+
+.ticker {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  white-space: nowrap;
+}
+
+.frame-12 {
+  align-items: flex-end;
   background-color: var(--sherpa-blue-2);
   border: 1px solid;
   border-color: var(--white);
   border-radius: 29px;
   display: flex;
-  height: 277px;
-  margin-top: 49px;
-  min-width: 599px;
+  flex-direction: column;
+  gap: 162px;
+  margin-top: 50px;
+  min-height: 277px;
+  padding: 0 1px;
+  width: 599px;
 }
 
-.overlap-group2 {
-  align-items: flex-start;
-  background-color: var(--sherpa-blue);
-  border: 1px solid;
-  border-color: var(--anakiwa);
-  border-radius: 29px 29px 0px 0px;
-  display: flex;
-  height: 49px;
-  min-width: 599px;
-  padding: 13px 31px;
+.rectangle-14-1 {
+  background-color: var(--anakiwa);
+  border-radius: 29px 0px 29px 0px;
+  height: 60px;
+  width: 299px;
 }
 
-.cosine-regression {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 22px;
-  white-space: nowrap;
+.date-stamp {
+  height: 60px;
+  margin-right: 78px;
+  margin-top: -6px;
+  width: 258px;
 }
 
 .frame-5 {
@@ -177,27 +184,125 @@
   border-radius: 29px;
   display: flex;
   height: 392px;
+  margin-top: 49px;
   min-width: 599px;
 }
 
 .overlap-group-1 {
-  align-items: flex-end;
+  height: 51px;
+  position: relative;
+  width: 599px;
+}
+
+.standard-poor-500 {
+  left: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 241px;
+}
+
+.line-6 {
+  height: 49px;
+  left: 450px;
+  top: 2px;
+  width: 2px;
+}
+
+.desktop-1 .line {
+  object-fit: cover;
+  position: absolute;
+}
+
+.line-5 {
+  height: 49px;
+  left: 420px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-4 {
+  height: 49px;
+  left: 390px;
+  top: 2px;
+  width: 2px;
+}
+
+.rectangle-18 {
   background-color: var(--sherpa-blue);
   border: 1px solid;
   border-color: var(--anakiwa);
   border-radius: 29px 29px 0px 0px;
-  display: flex;
   height: 49px;
-  min-width: 599px;
-  padding: 11px 29px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 599px;
 }
 
-.lstm-analysis {
-  letter-spacing: 0;
-  line-height: normal;
-  min-height: 26px;
-  white-space: nowrap;
-  width: 241px;
+.line-2 {
+  height: 49px;
+  left: 330px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-9 {
+  height: 49px;
+  left: 540px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-10 {
+  height: 49px;
+  left: 570px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-11 {
+  height: 1px;
+  left: 286px;
+  top: 34px;
+  width: 313px;
+}
+
+.line-8 {
+  height: 49px;
+  left: 510px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-7 {
+  height: 49px;
+  left: 480px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-1 {
+  height: 49px;
+  left: 300px;
+  top: 0;
+  width: 2px;
+}
+
+.line-3 {
+  height: 49px;
+  left: 360px;
+  top: 2px;
+  width: 2px;
+}
+
+.line-12 {
+  height: 1px;
+  left: 0;
+  top: 13px;
+  width: 599px;
 }
 
 .flex-col {
@@ -210,33 +315,6 @@
   width: 336px;
 }
 
-.frame-4 {
-  align-items: flex-start;
-  background-color: var(--sherpa-blue-2);
-  border: 1px solid;
-  border-color: var(--white);
-  border-radius: 29px;
-  display: flex;
-  gap: 18px;
-  height: 65px;
-  min-width: 336px;
-  padding: 8px 15px;
-}
-
-.stone-oak {
-  align-self: center;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: 7px;
-  min-height: 34px;
-  width: 210px;
-}
-
-.frame {
-  height: 47px;
-  width: 56px;
-}
-
 .overlap-group {
   border-radius: 29px;
   height: 239px;
@@ -245,12 +323,21 @@
 }
 
 .rectangle-15 {
-  background-color: var(--alto);
+  background-color: #d9d9d9;
   height: 46px;
   left: 0;
   position: absolute;
   top: 164px;
   width: 336px;
+}
+
+.rectangle-14 {
+  background-color: var(--anakiwa);
+  height: 239px;
+  left: 260px;
+  position: absolute;
+  top: 0;
+  width: 56px;
 }
 
 .place {
@@ -264,15 +351,6 @@
   position: absolute;
   top: 63px;
   width: 259px;
-}
-
-.rectangle-14 {
-  background-color: var(--anakiwa);
-  height: 239px;
-  left: 260px;
-  position: absolute;
-  top: 0;
-  width: 56px;
 }
 
 .rectangle-2 {
@@ -339,92 +417,36 @@
   width: 238px;
 }
 
-.flex-col-1 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 49px;
-  margin-top: 32px;
-  min-height: 991px;
-  width: 131px;
-}
-
-.frame-11 {
+.frame-4 {
+  align-items: flex-start;
   background-color: var(--sherpa-blue-2);
   border: 1px solid;
   border-color: var(--white);
   border-radius: 29px;
-  height: 136px;
-  margin-top: 21px;
-  width: 131px;
-}
-
-.frame-9 {
-  align-items: flex-start;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64ad0bbb7e539e7d4fca8b4c/releases/64ad1c02a1033258a7739553/img/rectangle-8.svg);
-  background-size: 100% 100%;
   display: flex;
-  height: 146px;
-  margin-top: 21px;
-  min-width: 131px;
-  padding: 24px 8px;
+  gap: 18px;
+  height: 65px;
+  min-width: 336px;
+  padding: 8px 15px;
 }
 
-.rectangle-28 {
-  background-color: var(--alto);
-  height: 5px;
-  width: 40px;
+.frame {
+  height: 47px;
+  width: 56px;
 }
 
-.rectangle-11 {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgb(153, 241, 255) 100%
-  );
-  height: 446px;
-  margin-right: 1px;
-  margin-top: 65px;
-  width: 92px;
-}
-
-.frame-8 {
-  align-items: flex-start;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64ad0bbb7e539e7d4fca8b4c/releases/64ad1c02a1033258a7739553/img/rectangle-5.svg);
-  background-size: 100% 100%;
-  display: flex;
-  height: 156px;
-  min-width: 131px;
-  padding: 9px 13px;
-}
-
-.overlap-group1 {
-  height: 40px;
-  position: relative;
-  width: 40px;
-}
-
-.rectangle-27 {
-  background-color: var(--alto);
-  height: 40px;
-  left: 18px;
-  position: absolute;
-  top: 0;
-  width: 5px;
-}
-
-.rectangle-26 {
-  background-color: var(--alto);
-  height: 5px;
-  left: 0;
-  position: absolute;
-  top: 17px;
-  width: 40px;
+.stone-oak {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 7px;
+  min-height: 34px;
+  width: 210px;
 }
 
 .rectangle-6 {
   background-color: var(--anakiwa);
   height: 1024px;
-  margin-left: 49px;
+  margin-left: 60px;
   width: 92px;
 }
