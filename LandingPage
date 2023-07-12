@@ -1,4 +1,4 @@
-<div class="desktop-2 screen">
+<div class="desktop-1 screen">
   <div class="flex-col">
     <div class="overlap-group">
       <div class="rectangle-15"></div>
@@ -25,18 +25,6 @@
     </div>
   </div>
   <div class="frame-container">
-    <div class="frame-5">
-      <div class="overlap-group-1">
-        <div class="lstm-analysis archivo-bold-white-24px">LSTM Analysis</div>
-      </div>
-    </div>
-    <div class="frame-12">
-      <div class="overlap-group2">
-        <div class="cosine-regression archivo-bold-white-24px">
-          Cosine Regression
-        </div>
-      </div>
-    </div>
     <div class="frame-7">
       <div class="rectangle-13"></div>
       <div class="frame-container-1">
@@ -49,19 +37,44 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="flex-col-1">
-    <div class="frame-8">
-      <div class="overlap-group1">
-        <div class="rectangle-27"></div>
-        <div class="rectangle-26"></div>
+    <div class="frame-5">
+      <div class="overlap-group-1">
+        <div class="rectangle-18"></div>
+        <div class="standard-poor-500 archivo-bold-white-24px">
+          Standard &amp; Poor 500
+        </div>
+        <img class="line-1 line" src="line-1.svg" alt="Line 1" /><img
+          class="line-2 line"
+          src="line-1.svg"
+          alt="Line 2"
+        /><img class="line-3 line" src="line-1.svg" alt="Line 3" /><img
+          class="line-4 line"
+          src="line-1.svg"
+          alt="Line 4"
+        /><img class="line-5 line" src="line-1.svg" alt="Line 5" /><img
+          class="line-6 line"
+          src="line-1.svg"
+          alt="Line 6"
+        /><img class="line-7 line" src="line-1.svg" alt="Line 7" /><img
+          class="line-8 line"
+          src="line-1.svg"
+          alt="Line 8"
+        /><img class="line-9 line" src="line-1.svg" alt="Line 9" /><img
+          class="line-10 line"
+          src="line-1.svg"
+          alt="Line 10"
+        /><img class="line-11 line" src="line-11.svg" alt="Line 11" /><img
+          class="line-12 line"
+          src="line-12.svg"
+          alt="Line 12"
+        />
       </div>
     </div>
-    <div class="frame-9">
-      <div class="rectangle-28"></div>
+    <div class="frame-12">
+      <img class="date-stamp" src="datestamp.svg" alt="DateStamp" />
+      <div class="rectangle-14-1"></div>
     </div>
-    <div class="frame-11"></div>
-    <div class="rectangle-11"></div>
   </div>
+  <div class="rectangle-11"></div>
   <div class="rectangle-6"></div>
 </div>
